@@ -1,0 +1,195 @@
+*{
+  padding:0;
+  margin: 0;box-sizing: border-box;
+  text-decoration: none;  
+  color: aliceblue;
+}
+/* -------- ------------logo---------------------------------------------*/
+.logo{
+    height: 80px;
+    
+}
+
+.navbar-brand{
+    width: 290pxpx;
+    color: aqua;
+    text-align: end;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    background: linear-gradient(rgb(54, 2, 2),rgb(163, 5, 5),rgb(156, 44, 44),rgb(224, 63, 63),indigo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.navbar-nav{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-size:x-large;
+    justify-content: space-around;
+    width: 80%;
+    padding: 30px;
+}
+.navbar-nav a:hover{
+    font-size: 30px;
+    border: 5px;
+    border-radius: 22px;
+    color: black;
+    background-color: red;   
+}
+#ss{
+    box-shadow: -30px 10px 50px rgb(2, 2, 5);
+    border-radius:22px ;
+  
+}
+.navbar{
+    background-color:rgb(3, 3, 81);
+    
+}
+.button{
+    font-size: x-large;
+    width: 15%;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 139, 30);
+}
+.button:hover{
+    background-color: chartreuse;
+    box-shadow: -30px 10px 50px rgb(4, 4, 13);
+    border-radius:22px ;
+}
+
+/*---------------------- background img ----------------------------------------*/
+/* .img{
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:inherit;
+   
+} */
+body{
+    background-color: rgb(5, 5, 85);
+}
+.h1{
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-items: flex-end;
+    background: linear-gradient(red,rgb(147, 163, 5),rgb(80, 88, 3),rgb(207, 241, 11),indigo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#aaa{
+    padding: 50px;
+}
+#colo{
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    /* font-family: 'Tangerine', cursive; */
+    background: linear-gradient(red,rgb(147, 163, 5),rgb(80, 88, 3),rgb(207, 241, 11),indigo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+#g{
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    padding-left: 40%;
+}
+#s{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+#s :hover{    
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.p{
+    color: azure;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 33px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cc{
+    padding-top: 30px;
+    padding-left: 36px;
+    box-shadow: -70px 10px 90px rgb(9, 7, 37);
+    border-radius:20px ;
+}
+#row{
+    padding-left: 23px;
+}
+
+
+
+.container{
+    display: grid;
+    justify-content: center;
+   
+}
+
+
+/*       contact */
+.contact{
+    text-align: center;
+    
+  }
+  
+  
+  
+  
+  #color{
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    justify-content:space-between;
+    text-align: center;
+  }
+  
+  /* #ada{
+    padding-left: 100px;
+  
+  } */
+  #info{
+    font-size: x-large;
+  }
+  #contact{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #bbb{
+    background-color: aqua;
+    border: 3px solid #010616;
+   box-shadow: -30px 60px 1000px #033ce7;
+  }
+  .card-text{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: linear-gradient(red,rgb(255, 0, 255),rgb(231, 224, 224));
+  
+  }
+  .name{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .st-portfolio-img st-zoom-in{
+    padding-right: 133px;
+    padding-left: 2px;
+  }
+  .col-lg-4 col-md-6{
+    padding-right: 133px;
+    padding-left: 2px;
+
+  }
